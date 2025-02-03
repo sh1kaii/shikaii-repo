@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    height: 80vh; /* Fills the top 80% of the screen */
+    width: 100%;
+}
+
+#redbox, #bluebox {
+    width: 48%; /* Makes each box take 48% of the screen width */
+    height: 100%; /* Makes the boxes fill the container's height */
+    text-align: left;
+    line-height: 80px;
+    box-sizing: border-box;
+    font-size: 30px;
+    border: 20px solid #b312e3;
+}
+
+#redbox {
+    background-color: red;
+}
+
+#bluebox {
+    background-color: blue;
+}
+
+#gap {
+    height: 20vh; /* Creates a 20% gap under the boxes */
+}
